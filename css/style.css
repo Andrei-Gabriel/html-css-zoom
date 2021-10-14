@@ -2,4 +2,35 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    /* Lista fonts */
+    font-family: 'Oswald', sans-serif;
 }
+
+body {
+    background-color: black;
+}
+
+main {
+    height: 80vh;
+    display: flex;
+        align-items: center;
+        justify-content: space-between;
+}
+
+    .freccia {
+        color: white;
+        font-size: 40px;
+        margin: 0 20px;
+        display: flex;
+            flex-direction: column;
+            align-items: center;
+    }
+        #sx i {
+            color: gray;
+        }
+        #dx i {
+            color: rgb(37, 157, 255);
+        }
+        .freccia span {
+            font-size: 10px;
+        }
